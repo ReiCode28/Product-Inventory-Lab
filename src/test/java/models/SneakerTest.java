@@ -89,13 +89,13 @@ public class SneakerTest {
 
     @Test //(1)
           //@Test notifies JUnit to treat this method as a test
-    public void constructorTest() {
+    public void SneakerConstructorTest() {
 
         //(2)
         //I create data to use during the test, pass these values into
         //the constructor and later expect the same values upon retrieval
         int expectedId = 6;
-        String expectedName = "Randy";
+        String expectedName = "Air Max";
         String expectedBrand = "Nike";
         String expectedSport = "Running";
         int expectedQty = 2;
