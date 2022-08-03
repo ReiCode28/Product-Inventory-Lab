@@ -57,7 +57,7 @@ public class SneakerTest {
     @Test
     public void setSize() {
 
-        int expected = 9;
+        Double expected = 9.0;
 
         Sneaker testSneaker = new Sneaker();
         testSneaker.setSize(expected);
@@ -99,7 +99,7 @@ public class SneakerTest {
         String expectedBrand = "Nike";
         String expectedSport = "Running";
         int expectedQty = 2;
-        int expectedSize = 9;
+        Double expectedSize = 9.0;
         float expectedPrice = 199.00f;
 
         //(3)

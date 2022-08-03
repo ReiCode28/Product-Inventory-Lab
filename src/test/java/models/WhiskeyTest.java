@@ -81,7 +81,7 @@ public class WhiskeyTest {
 
         Assertions.assertEquals(expected, testWhiskey.getPrice());
     }
-
+    @Test
     public void WhiskeyConstructorTest(){
 
         int expectedId = 1;
